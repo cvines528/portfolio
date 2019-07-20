@@ -1,0 +1,164 @@
+#design-by{
+    position: relative;
+    top: -200px;
+}
+#design-by .design-container{
+    position: relative;
+    background: white;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#design-by .design-container .bg-container{
+    position: relative;
+    background: #4C44C1;
+    padding: 45px;
+    overflow: hidden;
+}
+#design-by .design-container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#design-by .design-container .bg-image{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    opacity: .3;
+    right: -100px;
+    top: -100px;
+}
+#design-by .design-container .info-section{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#design-by .design-container .info-section h5{
+    color: #FEA83C;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+}
+#design-by .design-container .info-section h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;  
+    position: relative;
+    z-index: 2;  
+}
+#design-by .design-container .info-section .info-list{
+    margin-bottom: 75px; 
+    position: relative;
+    z-index: 2;   
+}
+#design-by .design-container .info-section .info-list li{
+        list-style: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 14px;
+        vertical-align: top;
+}
+#design-by .design-container .info-section .info-list li .circle{
+    background: #FEA83C;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+}
+#design-by .design-container .info-section .info-list li .circle .fas{   
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#design-by .design-container .info-section .white-btn{
+    display: inline-block;   
+    background: white;
+    border-radius: 50px;
+    padding: 20px 65px;
+    text-decoration: none;
+    color: #4C44C1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+}
+#design-by .design-container .icon-section{
+    width: 60%;
+    background: white;
+    float: left;
+    position: relative;
+}
+#design-by .design-container .icon-section .refresh-circle{
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+#design-by .design-container .icon-section .refresh-circle .fas{
+    position: relative;
+    color: #FEA83C;
+    font-size: 2.5rem;
+    top: 20px;
+    left: 20px;
+}
+#design-by .design-container .icon-section .icon-box{
+    width: 50%;
+    height: 224px;
+    float: left;
+    text-align: center;
+    border: 1px solid #000;
+    color: #4C44C1;  
+}
+#design-by .design-container .icon-section .icon-box{
+    width: 50%;
+    height: 224px;
+    float: left;
+    text-align: center;
+    border: 1px solid #f4f5f7;
+    color: #4C44C1;  
+    font-size: 1.3rem;
+
+}
+#design-by .design-container .icon-section .icon-box .fas, #design-by .design-container .icon-section .icon-box .far{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 61px;
+}
+
+/*Laptops*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*Tablets*/
+@media only screen and (max-width: 1023px) {
+    #design-by .design-container .icon-section .refresh-circle{
+        left: 44%; 
+    }
+}
+/*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+    #design-by .design-container .bg-container{
+        padding: 20px;
+    }
+    #design-by .design-container .info-section {
+        width: 100%;        
+    }
+    #design-by .design-container .icon-section {
+        width: 100%;       
+    }
+    #design-by .design-container .info-section .info-list li {
+        line-height: 2;
+    }
+    #design-by .design-container .icon-section .refresh-circle{
+        display: none;    
+    }
+}

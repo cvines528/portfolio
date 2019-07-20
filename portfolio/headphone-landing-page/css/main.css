@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
+@import "landing-page/blue-print.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+/*
+#FEA83C orange
+#6066F2 lightblue
+#B286F8 purple
+#4C44C1 blue
+#E6CDF9 light purple
+*/
+.container{
+    max-width: 1400px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.container-fluid{
+    margin:0 auto;
+    padding: 0 20px;
+}
+.box-shadow-down{
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.81);
+-moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.81);
+box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.81);
+}
+.box-shadow-center{
+    -webkit-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
+-moz-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
+box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
+}
+/*Laptops*/
+@media only screen and (max-width: 1215px) {
+
+}
+/*Tablets*/
+@media only screen and (max-width: 1023px) {
+
+}
+/*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+    
+}

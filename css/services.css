@@ -1,0 +1,75 @@
+#services{
+    padding: 80px 15px;
+}
+#services .title{
+   position: relative;
+   width: 150px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+#services .title .circle{
+    background: #33f2e5;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: .5;
+    position: absolute;
+    top: -50px;
+ }
+#services .title h1{
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    z-index: 1;
+    letter-spacing: 4px;
+    top: -50px;
+}
+#services .services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    
+}
+#services .services-container .box{
+    background: rgba(255,255,255, 0);
+    padding: 40px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+   
+}
+#services .services-container .box:hover{
+    background: rgba(255,255,255, 1);
+    -webkit-box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+    -moz-box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+    box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+}
+#services .services-container .box .fas{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#services .services-container .box h5{
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+#services .services-container .box p{
+    font-size: .8rem;
+    color: #919191;
+    line-height: 1.5;
+}
+#services .services-container .box.blue{
+    border-bottom: 2px solid #33f2e5;
+}
+#services .services-container .box.green{
+    border-bottom: 2px solid #015701;
+}
+#services .services-container .box.pink{
+    border-bottom: 2px solid #e36490;
+}
