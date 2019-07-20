@@ -1,0 +1,36 @@
+footer{
+    background: f9fafc;
+    padding: 100px 15px;
+    
+}
+footer .container .title{
+    color: #16171b;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+footer .content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+footer .content-container .info{
+    font-size: 1.5rem;
+}
+
+footer .content-container .social-container h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+footer .content-container .social-container a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #16171b;
+    transition: all .3s ease-in-out;
+}
+footer .content-container .social-container a:hover{
+    color: #e36490;
+}
