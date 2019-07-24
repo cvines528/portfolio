@@ -34,3 +34,12 @@ footer .content-container .social-container a{
 footer .content-container .social-container a:hover{
     color: #e36490;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+    
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+
+}

@@ -73,3 +73,20 @@
 #services .services-container .box.pink{
     border-bottom: 2px solid #e36490;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+    #services .services-container{
+        grid-template-columns: 100%;
+    }
+    #services .services-container .box{
+        background: rgba(255,255,255, 1);
+        -webkit-box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+        -moz-box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+        box-shadow: 8px 11px 13px -1px rgba(0,0,0,0.32);
+    }
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+    
+}

@@ -116,3 +116,24 @@
     font-weight: 600;
     font-size: 1.3rem;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+    #about-me-section .about-me-container .large-icons .square{
+        top: 115px;
+        left: 48px;
+    }
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+    #about-me-section .large-title{
+        left: 0;
+        font-size: 2.5rem;
+    }
+    #about-me-section .about-me-container{
+        grid-template-columns: 1fr;
+    }
+    #about-me-section .about-me-container .large-icons{
+        display: none;
+    }
+}
